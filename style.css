@@ -7,7 +7,7 @@ body, html {
     align-items: center;
     background: transparent;
     overflow: hidden;
-    direction: rtl;
+
       overflow: hidden;
 }
 
@@ -28,6 +28,7 @@ body, html {
 }
 
 .glass-container {
+      direction: rtl;
     position: relative;
     z-index: 1;
     background: rgba(255, 255, 255, 0.1);
@@ -130,15 +131,19 @@ footer {
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
+
+
 }
 
 footer a {
     color: #ffcc00;
     text-decoration: none;
+       
+
 }
 
 footer a:hover {
-    text-decoration: underline;
+   color: #1890db;
 }
 
 
