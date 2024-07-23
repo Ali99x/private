@@ -47,6 +47,13 @@ function moveStars() {
 initStars();
 moveStars();
 
+window.addEventListener('resize', () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+});
+
+
+
 // Updated data object
 const universityData = {
 'university1': [
