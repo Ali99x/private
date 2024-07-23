@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معدلات وقسط الجامعات الأهلية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="stars"></div>
+    <div class="glass-container">
+        <h1>معدلات الجامعات الأهلية</h1>
+        <h2>البيانات بعد اخر تحديث من قبل الوزارة</h2>
+        <label for="university-select">اختر الجامعة:</label>
+        <select id="university-select">
+            <option value="">-- اختر جامعة --</option>
+            <option value="university1">جامعة التنمية البشرية - سليمانية</option>
+            <option value="university2">جامعة قيوان - سليمانية</option>
+            <option value="university3">جامعة كومار - سليمانية</option>
+            <option value="university4">جامعة جيهان – سليمانية</option>
+            <option value="university5">جامعة جيهان – أربيل</option>
+            <option value="university6">جامعة جيهان – دهوك</option>
+            <option value="university7">جامعة نولج</option>
+            <option value="university8">جامعة تيشك – أربيل</option>
+            <option value="university9">جامعة تيشك – سليمانية</option>
+            <option value="university10">جامعة نوروز – دهوك</option>
+            <option value="university11">الجامعة الكاثوليكية - اربيل</option>
+            <option value="university12">جامعة القلعة - اربيل</option>
+            <option value="university13">جامعة كويژة - سليمانيه</option>
+            <option value="university14">جامعة بيان - اربيل</option>
+            <!-- يمكنك إضافة المزيد من الجامعات هنا -->
+        </select>
+        
+        <button id="show-data-btn">عرض البيانات</button>
+
+        <div id="data-table-container" style="display: none;">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>القسم</th>
+                        <th>المعدل</th>
+                        <th>القسط (دينار)</th>
+                    </tr>
+                </thead>
+                <tbody id="data-body">
+                    <!-- البيانات ستظهر هنا -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- زر القائمة -->
+    <div id="menu-button" class="menu-button">&#9776;</div>
+
+    <!-- القائمة الجانبية -->
+    <div id="side-menu" class="side-menu">
+        <button data-url="https://alievo99.github.io/university/">معدلات الجامعات الحكومية -</button>
+            <button data-url="https://alievo99.github.io/college/">القسم حسب المعدل -</button>
+
+    </div>
+   
+    <footer>
+        <p>2024 - © <a href="https://t.me/ali_me09" target="_blank">Ali</a> جميع الحقوق محفوظة للمطور</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
