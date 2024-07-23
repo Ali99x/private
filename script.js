@@ -10,6 +10,7 @@ let numStars = 100;
 const starSpeed = 0.7;
 
 function initStars() {
+    stars = []; // إعادة تعيين النجوم لتجنب تراكمها
     for (let i = 0; i < numStars; i++) {
         stars.push({
             x: Math.random() * canvas.width,
@@ -50,6 +51,7 @@ moveStars();
 window.addEventListener('resize', () => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
+    initStars(); // إعادة تهيئة النجوم عند تغيير حجم النافذة
 });
 
 
