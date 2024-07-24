@@ -55,6 +55,28 @@ window.addEventListener('resize', () => {
 });
 
 
+// منع النسخ
+document.addEventListener('copy', function(e) {
+    e.preventDefault();
+});
+
+// منع استخدام قائمة السياق (النقر بزر الفأرة الأيمن)
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+// منع تحديد النصوص
+document.addEventListener('selectstart', function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener('keydown', function(e) {
+    if ((e.ctrlKey && e.key === 'c') || (e.ctrlKey && e.key === 'v')) {
+        e.preventDefault();
+    }
+});
+
+
 
 // Updated data object
 const universityData = {
