@@ -262,17 +262,17 @@ const universityData = {
         { department: 'تسويق', grade: 55, fee: 2100000 }
     ],
 'university11': [
-        { department: 'تمريض', grade: 72, fee: 0 },
-        { department: 'صيدلة', grade: 81, fee: 0 },
-        { department: 'علوم مختبرات الطبية', grade: 59, fee: 0 },
-        { department: 'هندسة معماري', grade: 77, fee: 0 },
-        { department: 'هندسة مدني', grade: 77, fee: 0 },
-        { department: 'تكنولوجيا علوم الحاسبات', grade: 57, fee: 0 },
-        { department: 'علاقات دولية', grade: 57, fee: 0 },
-        { department: 'اللغة الانجليزية', grade: 57, fee: 0 },
-        { department: 'اعلام رقمي', grade: 55, fee: 0 },
-        { department: 'ادارة الاعمال', grade: 55, fee: 0 },
-        { department: 'محاسبة', grade: 55, fee: 0 }
+        { department: 'تمريض', grade: 72, fee: 3187500 },
+        { department: 'صيدلة', grade: 81, fee: 6990225 },
+        { department: 'علوم مختبرات الطبية', grade: 59, fee: 1750000 },
+        { department: 'هندسة معماري', grade: 77, fee: 2125000 },
+        { department: 'هندسة مدني', grade: 77, fee: 2000000 },
+        { department: 'تكنولوجيا علوم الحاسبات', grade: 57, fee: 1750000 },
+        { department: 'علاقات دولية', grade: 57, fee: 1500000 },
+        { department: 'اللغة الانجليزية', grade: 57, fee: 1500000 },
+        { department: 'اعلام رقمي', grade: 55, fee: 1500000 },
+        { department: 'ادارة الاعمال', grade: 55, fee: 1250000 },
+        { department: 'محاسبة', grade: 55, fee: 1500000 }
     ],
 
   'university12': [
