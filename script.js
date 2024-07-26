@@ -227,16 +227,16 @@ const universityData = {
         { department: 'تسويق وعمل', grade: 55, fee: 1739510 }
     ],
     'university9': [
-        { department: 'هندسة معماري', grade: 77, fee: 0 },
-        { department: 'هندسة مدني', grade: 77, fee: 0 },
-        { department: 'هندسة كومبيوتر', grade: 72, fee: 0 },
-        { department: 'هندسة تصميم داخلي', grade: 72, fee: 0 },
-        { department: 'علاقات دولية', grade: 57, fee: 0 },
-        { department: 'تقنية المعلومات', grade: 57, fee: 0 },
-        { department: 'لغة إنكليزية', grade: 57, fee: 0 },
-        { department: 'إدارة اعمال', grade: 55, fee: 0 },
-        { department: 'محاسبة', grade: 55, fee: 0 },
-        { department: 'بنوك', grade: 55, fee: 0 }
+        { department: 'هندسة معماري', grade: 77, fee: 3915207 },
+        { department: 'هندسة مدني', grade: 77, fee: 2505785 },
+        { department: 'هندسة كومبيوتر', grade: 72, fee: 2960310 },
+        { department: 'هندسة تصميم داخلي', grade: 72, fee: 2786097 },
+        { department: 'علاقات دولية', grade: 57, fee: 1625551 },
+        { department: 'تقنية المعلومات', grade: 57, fee: 2260839 },
+        { department: 'تربية إنكليزية', grade: 57, fee: 1698903 },
+        { department: 'إدارة اعمال', grade: 55, fee: 2087935 },
+        { department: 'محاسبة', grade: 55, fee: 1950399 },
+        { department: 'بنوك', grade: 55, fee: 1877046 }
     ],
   'university10': [
         { department: 'هندسة معماري', grade: 77, fee: 4250000 },
