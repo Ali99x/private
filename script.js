@@ -181,10 +181,10 @@ const universityData = {
         { department: 'تربية لغة إنكليزي – علم نفس', grade: 55, fee: 1488000 }
     ],
     'university7': [
-        { department: 'صيدلة', grade: 81, fee: 0 },
-        { department: 'هندسة نفط', grade: 74, fee: 0 },
-        { department: 'هندسة حاسبات', grade: 72, fee: 0 },
-        { department: 'هندسة بيئة', grade: 67, fee: 0 },
+        { department: 'صيدلة', grade: 81, fee: 10500000 },
+        { department: 'هندسة نفط', grade: 74, fee: 1912500 },
+        { department: 'هندسة حاسبات', grade: 72, fee: 1875000 },
+        { department: 'هندسة بيئة', grade: 67, fee: - },
         { department: 'تحليلات مرضية', grade: 59, fee: 0 },
         { department: 'مايكروبايولوجي طبي', grade: 59, fee: 0 },
         { department: 'علوم حاسبات', grade: 57, fee: 0 },
