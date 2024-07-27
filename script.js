@@ -397,3 +397,22 @@ function openPage(url) {
 }
 
 
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+    const overlay = document.getElementById('overlay');
+    const closeBtn = document.getElementById('closeBtn');
+
+    setTimeout(() => {
+        overlay.classList.add('show');
+    }, 400);
+
+    closeBtn.addEventListener('click', () => {
+        overlay.classList.remove('show');
+    });
+
+    overlay.addEventListener('click', (event) => {
+        if (event.target === overlay) {
+            overlay.classList.remove('show');
+        }
+    });
+});
