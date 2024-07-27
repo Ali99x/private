@@ -246,3 +246,67 @@ footer a:hover {
 .notification.hide {
     animation: slideUp 0.5s forwards;
 }
+
+
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+     z-index: 1009;
+}
+
+.overlay.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+   background: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    animation: popupAnimation 0.1s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     width: 73%;
+    max-width: 800px;
+}
+
+@keyframes popupAnimation {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 26px;
+    cursor: pointer;
+    color: #fff;
+}
+
+h6 { margin: 0 0 10px 0; 
+font-size: 16px; 
+ color: #fff419;
+  
+}
