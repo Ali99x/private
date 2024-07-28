@@ -42,7 +42,11 @@ body {
 }
 
 
-#university-select, {
+#city,
+#university,
+#college ,
+ #university-select,
+#department {
     color: black;
     -webkit-appearance: none;
 }
