@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-       <link rel="icon" href="https://i.ibb.co/gMjxk2Q/graduation-cap.png">
+    <link rel="icon" href="https://i.ibb.co/gMjxk2Q/graduation-cap.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>معدلات وقسط الجامعات الأهلية</title>
@@ -14,26 +14,26 @@
         <h1>معدلات الجامعات الأهلية</h1>
         <h2>البيانات بعد اخر تحديث من قبل الوزارة</h2>
         <label for="university-select">اختر الجامعة:</label>
-        <select id="university-select">
-            <option value="">-- اختر جامعة --</option>
-            <option value="university1">جامعة التنمية البشرية - سليمانية</option>
-            <option value="university2">جامعة قيوان - سليمانية</option>
-            <option value="university3">جامعة كومار - سليمانية</option>
-           <option value="university4">جامعة جيهان – سليمانية</option>
-           <option value="university9">جامعة تيشك – سليمانية</option>
-            <option value="university13">جامعة كويژة - سليمانيه</option>
-
-            <option value="university5">جامعة جيهان – أربيل</option>
-            <option value="university7">جامعة نولج - أربيل</option>
-            <option value="university8">جامعة تيشك – أربيل</option>
-            <option value="university11">الجامعة الكاثوليكية - اربيل</option>
-            <option value="university12">جامعة القلعة - اربيل</option>
-            <option value="university14">جامعة بيان - اربيل</option>
-
-            <option value="university6">جامعة جيهان – دهوك</option>
-            <option value="university10">جامعة نوروز – دهوك</option>
-            <!-- يمكنك إضافة المزيد من الجامعات هنا -->
-        </select>
+        <div class="dropdown">
+            <select id="university-select">
+                <option value="">-- اختر جامعة --</option>
+                <option value="university1">جامعة التنمية البشرية - سليمانية</option>
+                <option value="university2">جامعة قيوان - سليمانية</option>
+                <option value="university3">جامعة كومار - سليمانية</option>
+                <option value="university4">جامعة جيهان – سليمانية</option>
+                <option value="university9">جامعة تيشك – سليمانية</option>
+                <option value="university13">جامعة كويژة - سليمانيه</option>
+                <option value="university5">جامعة جيهان – أربيل</option>
+                <option value="university7">جامعة نولج - أربيل</option>
+                <option value="university8">جامعة تيشك – أربيل</option>
+                <option value="university11">الجامعة الكاثوليكية - اربيل</option>
+                <option value="university12">جامعة القلعة - اربيل</option>
+                <option value="university14">جامعة بيان - اربيل</option>
+                <option value="university6">جامعة جيهان – دهوك</option>
+                <option value="university10">جامعة نوروز – دهوك</option>
+                <!-- يمكنك إضافة المزيد من الجامعات هنا -->
+            </select>
+        </div>
         
         <button id="show-data-btn">عرض البيانات</button>
 
@@ -56,40 +56,30 @@
     <!-- زر القائمة -->
     <div id="menu-button" class="menu-button">&#9776;</div>
 
- <!-- القائمة الجانبية -->
-<div id="side-menu" class="side-menu">
-    <button data-url="https://ali99x.github.io/university/">معدلات الجامعات الحكومية ◄</button>
-<button data-url="https://ali99x.github.io/private/"> معدلات الجامعات الاهلية ◄</button>
- <button data-url="https://ali99x.github.io/college/">القسم حسب المعدل ◄</button>
-          <button data-url="https://ali99x.github.io/Pay/">اقساط الموازي / باراليل ◄</button>
-      <button data-url="https://ali99x.github.io/calculator/">  حاسبة معدل السادس ◄</button>
-<button data-url="https://ali99x.github.io/info2/"> توضيح الاقسام الجامعية ◄</button>
-          <button data-url="https://ali99x.github.io/info/">  معلومات وتوضيحات ◄</button>
-          <button data-url="https://ali99x.github.io/Me/">نبذة عن المطور  ◄</button>
-</div>
-
+    <!-- القائمة الجانبية -->
+    <div id="side-menu" class="side-menu">
+        <button data-url="https://ali99x.github.io/university/">معدلات الجامعات الحكومية ◄</button>
+        <button data-url="https://ali99x.github.io/private/">معدلات الجامعات الاهلية ◄</button>
+        <button data-url="https://ali99x.github.io/college/">القسم حسب المعدل ◄</button>
+        <button data-url="https://ali99x.github.io/Pay/">اقساط الموازي / باراليل ◄</button>
+        <button data-url="https://ali99x.github.io/calculator/">حاسبة معدل السادس ◄</button>
+        <button data-url="https://ali99x.github.io/info2/">توضيح الاقسام الجامعية ◄</button>
+        <button data-url="https://ali99x.github.io/info/">معلومات وتوضيحات ◄</button>
+        <button data-url="https://ali99x.github.io/Me/">نبذة عن المطور ◄</button>
     </div>
-<footer>
-  
-  <p>2024 - © <a href="https://t.me/ali_me09" target="_blank">Ali</a> جميع الحقوق محفوظة للمطور</p>    </footer>
+    
+    <footer>
+        <p>2024 - © <a href="https://t.me/ali_me09" target="_blank">Ali</a> جميع الحقوق محفوظة للمطور</p>
+    </footer>
 
-
-
- <div id="overlay" class="overlay">
+    <div id="overlay" class="overlay">
         <div class="popup">
             <span class="close-btn" id="closeBtn">&times;</span>
-          <h6>! ملاحظة هامة</h6>
-          
-<p>.ان المعدلات مسجلة بعد قرار وزاري, لسنة 24-23 بأن تقل بمعدل 3 درجات لبعض الاقسام </p>
-          <p>..كذالك قد تختلف مبالغ الاقساط قليلاَ</p>
+            <h6>! ملاحظة هامة</h6>
+            <p>.ان المعدلات مسجلة بعد قرار وزاري, لسنة 24-23 بأن تقل بمعدل 3 درجات لبعض الاقسام</p>
+            <p>..كذالك قد تختلف مبالغ الاقساط قليلاَ</p>
         </div>
     </div>
-
-
-
-
-  
-</footer>
 
     <script src="script.js"></script>
 </body>
